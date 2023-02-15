@@ -36,7 +36,7 @@ body.insertBefore(div, body.firstChild);
 
 
 
-const style = document.createElement('style');
+var style = document.createElement('style');
 
 style.textContent = `
 
@@ -77,7 +77,7 @@ checkbox.addEventListener('change', function() {
   });
 var fontFace = "@font-face { font-family: 'baravu'; src: url('./fonts/Mandara.ttf') format('truetype'); }";
 
-var style = document.createElement("style");
+ style = document.createElement("style");
 style.innerHTML = fontFace;
 document.head.appendChild(style);
 var datas = new Map();

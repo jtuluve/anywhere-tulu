@@ -36,6 +36,37 @@ body.insertBefore(div, body.firstChild);
 
 
 
+const style = document.createElement('style');
+
+style.textContent = `
+
+    .genanav {
+
+        position: fixed;
+
+        height: fit-content;
+
+        width: 10%;
+
+        background-color: rgb(60, 60, 60);
+
+        top: 0px;
+
+        right: 0px;
+
+        border: blue;
+
+        border-radius: 4px;
+
+        padding: 3px;
+
+    }
+
+`;
+
+document.head.appendChild(style);
+
+
 var checkbox =document.getElementById("_genacheckbox_")
 checkbox.addEventListener('change', function() {
     if (this.checked) {

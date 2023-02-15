@@ -1,3 +1,41 @@
+// create the div element and set its attributes
+
+const div = document.createElement('div');
+
+div.className = 'genanav';
+
+// create the input element and set its attributes
+
+const input = document.createElement('input');
+
+input.type = 'checkbox';
+
+input.id = '_genacheckbox_';
+
+input.name = '_genacheckbox_';
+
+// create the span element and set its attributes
+
+const span = document.createElement('span');
+
+span.style.color = 'azure';
+
+span.textContent = 'TuluScript';
+
+// append the input and span elements to the div element
+
+div.appendChild(input);
+
+div.appendChild(span);
+
+// get the body element and insert the div element at the beginning
+
+const body = document.getElementsByTagName('body')[0];
+
+body.insertBefore(div, body.firstChild);
+
+
+
 var checkbox =document.getElementById("_genacheckbox_")
 checkbox.addEventListener('change', function() {
     if (this.checked) {

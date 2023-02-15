@@ -77,7 +77,7 @@ checkbox.addEventListener('change', function() {
   });
 var fontFace = "@font-face { font-family: 'baravu'; src: url('./fonts/Mandara.ttf') format('truetype'); }";
 
- style = document.createElement("style");
+style = document.createElement("style");
 style.innerHTML = fontFace;
 document.head.appendChild(style);
 var datas = new Map();

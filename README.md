@@ -24,7 +24,7 @@ Genasiri Anywhere uses the same technique as Genairi tulu transliterator. It is 
 
 #### Why isn't it converting the text to Tulu Script in my website?
 
-• Please check If you have pasted the correct code in your html file.\n
+• Please check If you have pasted the correct code in your html file.</br>
 • Make sure that you have pasted the code just before the closing tag of body (i.e </body>)
 • Make sure you have added 'genatulu' class in every tag you want to convert the text.
 • If everything is correct but if it still doen't work, please contact me.

@@ -6,7 +6,7 @@ Conert your blogs, contents in your website from Kannada or Malyalam or Hindi sc
 
 ## Quick Installation
 ### Step 1:
-Paste this one line of code before the closing tag of body (i.e </body> )
+Paste this one line of code before the closing tag of body (i.e before ```</body>``` )
 
 ```html
 <script src="https://jtuluve.github.io/genasiri-anywhere/script.js">
@@ -15,8 +15,9 @@ Paste this one line of code before the closing tag of body (i.e </body> )
 Add "genatulu" class to the tags which has the contents you want to convert to Tulu Script. 
 Ex: 
 ```html
-<p class="genatulu">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eros.</p>
-<h1 class="genatulu">Lorem ipsum dolor</p>
+<h1 class="genatulu">ತುಳುನಾಡ್</h1>
+<p class="genatulu">ತುಳುನಾಡ್ ಕರ್ನಾಟಕ ರಾಜ್ಯೊದ ದಕ್ಷಿಣ ಕನ್ನಡ, ಉಡುಪಿ ಜಿಲ್ಲೆಲು ಕೇರಳ ರಾಜ್ಯೊದ ಕಾಸರಗೋಡುಜಿಲ್ಲೆನ್ ತುಳುನಾಡ್ ಪಂಡ್‍ದ್ ಪನ್ಪೆರ್. ಈ ಪ್ರದೇಸೊದ ಮುಕ್ಯೊ ಬಾಸೆ ತುಳು. ಬೌಗೋಲಿಕವಾದ್ ತುಳುನಾಡ್ ಭಾರತದೇಸೊದ ನೈರುತ್ಯೊಡುಪ್ಪುನ ಪ್ರದೇಸೊ</p>
+<h1 class="genatulu">ತುಳುನಾಡ್ದ ಪಡ್ಡಾಯಿಡ್ ಅರಬ್ಬಿ ಕಡಲ್. ಬಡೆಕಾಯಿಡ್ ಕರ್ನಾಟಕ ರಾಜ್ಯೊದ ಉತ್ತರ ಕನ್ನಡ ಜಿಲ್ಲೆ ಮೂಡಾಯಿಡ್ ಹಾಸನ ಜಿಲ್ಲೆ, ತೆನ್ಕಾಯಿಡ್ ಕೇರಳ. ತುಳು ಮುಲ್ತ ಮಣ್ಣ್‌ದ ಬಾಸೆ. ಕನ್ನಡ, ಬ್ಯಾರಿ,ಕೊಂಕಣಿ ಬಾಸೆನ್‍ಲಾ ಮುಲ್ಪ ಪಾತೆರುವೆರ್. ತುಳುನಾಡ್ದ ವ್ಯಾಪ್ತಿ ೮,೪೪೧ km2 (೩,೨೫೯ sq mi). ೨೦೦೧ಗ್ ಮುಲ್ಪ ೩,೦೦೫,೮೯೭ ನಸ್ಯೊ ಇತ್ತ್ಂಡ್. ಕುಡ್ಲದ ಮಂಗಳೂರು ಮಹಾನಗರ ಪಾಲಿಕೆ, ಉಡುಪಿ ಮುಲ್ತ ಮುಕ್ಯೊ ನಗರ ಆದುಂಡು.</p>
 ```
 ## Introduction 
 Genasiri Anywhere uses the same technique as Genairi tulu transliterator. It is purely made using basic Javascript. 

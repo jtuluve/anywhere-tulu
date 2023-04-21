@@ -1,5 +1,5 @@
 
-# Genasiri Anywhere
+# Anywhere Tulu
 
 Conert your blogs, contents in your website from Kannada or Malyalam or Hindi script to Tulu Script with just 2 steps.
 
@@ -31,5 +31,5 @@ Genasiri Anywhere uses the same technique as Genairi tulu transliterator. It is 
 
 
 # Do you have time for coffee?
-[![coffee](https://img.shields.io/badge/Buy_me_a_coffee-f7ff05?style=for-the-badge&logo=buymeacoffee&logoColor=054ccf&labelWidth=100)](https://www.buymeacoffee.com/jtuluve)
+<a href="https://www.buymeacoffee.com/jtuluve" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 

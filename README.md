@@ -48,6 +48,16 @@ If it isn't converting the text,
 • Make sure you have added 'genatulu' class in every tag you want to convert the text.</br>
 • If everything is correct but if it still doen't work, please contact me.</br>
 
+
+#### It is converting my text from english to tulu. Why?
+Sorry. The allige font which I am using in this tool uses english letters to convert it to tulu. So it gets applied to any english texts. Here is a solution:
+• Store the english text inside a span element and apply separate font to it.
+##### example:
+```
+<h1 class="genatulu"> ತುಳುನಾಡ್ದ ವ್ಯಾಪ್ತಿ ೮,೪೪೧ <span style="font-family: 'Courier New', Courier, monospace;">km</span> ಸ್ಕ್ವೇರ್ (೩,೨೫೯ ಸ್ಕ್ವೇರ್ ಮೈಲ್ಸ್ ).</h1>
+```
+In the above example the "km" is in english. So we stored it around a span ag and applied separate font to it. It is important to add any font family or else it will not work.
+
 ## Got suggestions?
 ### If you have any suggestions/ queries contact me. I'm on <a href="https://instagram.com/jtuluve">instagram</a>. Let's chat!!
 # Do you have time for coffee?

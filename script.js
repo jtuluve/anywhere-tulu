@@ -24,7 +24,7 @@ span2.append("Tulu Script")
 span2.style = "color: azure;font-size: 1em;"
 div3.append(input, span2)
 div1.append(div2, div3)
-body.append(div1)
+body.prepend(div1)
 
 var checkbox = document.getElementById("_genacheckbox_")
 checkbox.addEventListener('change', function () {

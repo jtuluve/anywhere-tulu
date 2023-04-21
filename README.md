@@ -4,6 +4,11 @@
 Conert your blogs, contents in your website from Kannada or Malyalam or Hindi script to Tulu Script with just 2 steps.
 
 
+## Introduction 
+Anywhere Tulu is a transliteration tool for web developers to transliterate Kannada text written in Tulu language to Tulu Script. Anywhere Tulu uses the same code from Genairi tulu transliterator to transliterate the text. It was made using Javascript only. 
+#### You can see the simple working example <a href="https://jtuluve.github.io/genasiri-anywhere/script.js">here</a>
+Currently it supports Kannada only. I will be adding Malayalam and Hindi ASAP. 
+
 ## Quick Installation
 ### Step 1:
 Paste this one line of code before the closing tag of body (i.e before ```</body>``` )
@@ -22,8 +27,18 @@ Ex:
 
 #### And that's it!! You are good to go..
 
-## Introduction 
-Genasiri Anywhere uses the same technique as Genairi tulu transliterator. It is purely made using basic Javascript. 
+
+## Advanced control
+You can control where the option of transliteration should stay by adjusting the style. The element visible in the top-right corner has the class name as "AT_mainbody". You can change the style to your wish.
+example:
+```css
+.AT_mainbody{
+top: 15px;
+right: 15px;
+}
+```
+
+
 ## FAQ
 
 #### Why isn't it converting the text to Tulu Script in my website?
@@ -34,6 +49,6 @@ Genasiri Anywhere uses the same technique as Genairi tulu transliterator. It is 
 • If everything is correct but if it still doen't work, please contact me.</br>
 
 ## Got suggestions?
-### I'm on <a href="https://instagram.com/jtuluve">instagram</a>. Let's chat!!
+### If you have any suggestions/ queries contact me. I'm on <a href="https://instagram.com/jtuluve">instagram</a>. Let's chat!!
 # Do you have time for coffee?
 <a href="https://www.buymeacoffee.com/jtuluve" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>

@@ -2,13 +2,13 @@ const body = document.getElementsByTagName('body')[0];
 let div1 = document.createElement('div')
 div1.className = 'AT_mainbody'
 let style = document.createElement("style")
-style.append("@font-face { font-family: 'baravu'; src: url('./fonts/Mandara.ttf') format('truetype'); } .AT_mainbody{position: fixed;top:1em;right:1em;width:fit-content;padding:5px;background-color:rgb(132, 132, 132);border-radius:0.5em;}")
+style.append("@font-face { font-family: 'baravu'; src: url('https://jtuluve.github.io/genasiri-anywhere/fonts/Mandara.ttf') format('truetype'); } .AT_mainbody{position: fixed;top:1em;right:1em;width:fit-content;padding:5px;background-color:rgb(132, 132, 132);border-radius:0.5em;}")
 document.getElementsByTagName('head')[0].append(style)
 div1.style = ""
 let div2 = document.createElement('div')
 div2.style = "display:flex;"
 let img = document.createElement('img')
-img.src = './images/logo.png'
+img.src = 'https://jtuluve.github.io/genasiri-anywhere/images/logo.png'
 img.style = 'width: 1.5em;margin-right:0.3em;'
 let span = document.createElement('span')
 span.append("anywhere tulu")

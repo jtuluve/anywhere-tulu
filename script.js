@@ -2,7 +2,7 @@ const body = document.getElementsByTagName('body')[0];
 let div1 = document.createElement('div')
 div1.className = 'AT_mainbody'
 let style = document.createElement("style")
-style.append("@font-face { font-family: 'baravu'; src: url('https://jtuluve.github.io/anywhere-tulu/fonts/Mandara.ttf') format('truetype'); } .AT_mainbody{position: fixed;top:1em;right:1em;width:fit-content;padding:5px;background-color:rgb(132, 132, 132);border-radius:0.5em;}")
+style.append("@font-face { font-family: 'baravu'; src: url('https://jtuluve.github.io/anywhere-tulu/fonts/Mandara.ttf') format('truetype'); } .AT_mainbody{position: fixed;top:1em;right:1em;width: 28vw;max-width: 169px;padding:0.6vw;background-color:rgb(245 245 245);border-radius:0.5em;filter:drop-shadow(2px 4px 4px black);min-width: 126px;}")
 document.getElementsByTagName('head')[0].append(style)
 div1.style = ""
 let div2 = document.createElement('div')
@@ -21,7 +21,7 @@ input.id = "_genacheckbox_"
 input.type = 'checkbox'
 let span2 = document.createElement('span')
 span2.append("Tulu Script")
-span2.style = "color: azure;font-size: 1em;"
+span2.style = "color: #910000;margin-left:min(1vw,25px);font-size: 1em;"
 div3.append(input, span2)
 div1.append(div2, div3)
 body.prepend(div1)
@@ -40,15 +40,15 @@ function _gena2tulu_() {
     var elements = document.getElementsByClassName("genatulu");
     for (var i = 0; i < elements.length; i++) {
         datas.set("pf" + i, elements[i].style.fontFamily)
-        datas.set("p" + i, elements[i].innerText)
+        datas.set("p" + i, elements[i].innerHTML)
         elements[i].style.fontFamily = "baravu";
 
-        let txt = elements[i].innerText
+        let txt = elements[i].innerHTML
 
         txt = _2tulu_(txt)
 
 
-        elements[i].innerText = txt;
+        elements[i].innerHTML = txt;
 
 
     }
@@ -56,7 +56,7 @@ function _gena2tulu_() {
 function _gena2org_() {
     var elements = document.getElementsByClassName("genatulu");
     for (var i = 0; i < elements.length; i++) {
-        elements[i].innerText = datas.get("p" + i)
+        elements[i].innerHTML = datas.get("p" + i)
         elements[i].style.fontFamily = datas.get("pf" + i)
     }
 }

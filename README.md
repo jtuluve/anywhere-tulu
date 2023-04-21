@@ -41,8 +41,8 @@ right: 15px;
 
 ## FAQ
 
-#### Why isn't it converting the text to Tulu Script in my website?
-
+#### It isn't converting the text to Tulu Script in my website. Why?
+If it isn't converting the text,
 • Please check If you have pasted the correct code in your html file.</br>
 • Make sure that you have pasted the code just before the closing tag of body (i.e ```</body>```)</br>
 • Make sure you have added 'genatulu' class in every tag you want to convert the text.</br>

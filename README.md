@@ -50,7 +50,7 @@ If it isn't converting the text,
 
 
 #### It is converting my text from english to tulu. Why?
-Sorry. The allige font which I am using in this tool uses english letters to convert it to tulu. So it gets applied to any english texts. Here is a solution:
+Sorry. Unfortunately, the allige font which I am using in this tool uses english letters to convert it to tulu. So it gets applied to any english texts. Here is a solution:
 • Store the english text inside a span element and apply separate font to it.
 ##### example:
 ```

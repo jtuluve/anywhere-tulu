@@ -6,7 +6,7 @@ Conert your blogs, contents in your website from Kannada or Malyalam or Hindi sc
 
 ## Introduction 
 Anywhere Tulu is a transliteration tool for web developers to transliterate Kannada text written in Tulu language to Tulu Script. Anywhere Tulu uses the same code from Genairi tulu transliterator to transliterate the text. It was made using Javascript only. 
-#### You can see the simple working example <a href="https://jtuluve.github.io/genasiri-anywhere/script.js">here</a>
+#### You can see the simple working example <a href="https://jtuluve.github.io/anywhere-tulu/script.js">here</a>
 Currently it supports Kannada only. I will be adding Malayalam and Hindi ASAP. 
 
 ## Quick Installation
@@ -14,7 +14,7 @@ Currently it supports Kannada only. I will be adding Malayalam and Hindi ASAP.
 Paste this one line of code before the closing tag of body (i.e before ```</body>``` )
 
 ```html
-<script src="https://jtuluve.github.io/genasiri-anywhere/script.js">
+<script src="https://jtuluve.github.io/anywhere-tulu/script.js">
 ```
 ### Step 2:
 Add "genatulu" class to the tags which has the contents you want to convert to Tulu Script. 

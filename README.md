@@ -38,7 +38,7 @@ Ex:
 #### And that's it!! You are good to go..
 
 
-## Advanced control
+## CSS control
 
 You can control where the option of transliteration should stay by adjusting the style. The element visible in the top-right corner has the class name as "AT_mainbody". You can change the style to your wish.
 example:
@@ -53,7 +53,7 @@ right: 15px;
 
 ## FAQ
 
-### It isn't converting the text to Tulu Script in my website. Why?
+### 1) It isn't converting the text to Tulu Script in my website. Why?
 
 If it isn't converting the text,
 • Please check If you have pasted the correct code in your html file.</br>
@@ -62,7 +62,7 @@ If it isn't converting the text,
 • If everything is correct but if it still doen't work, please contact me.</br>
 
 
-#### It is converting my text from english to tulu. Why?
+### 2) It is converting my text from english to tulu. Why?
 Sorry. Unfortunately, the allige font which I am using in this tool uses english letters to convert it to tulu. So it gets applied to any english texts. Here is a solution:<br>
 • Store the english text inside a span element and apply separate font to it.
 ##### example:

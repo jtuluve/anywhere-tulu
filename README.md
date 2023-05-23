@@ -3,22 +3,31 @@
 
 Conert your blogs, contents in your website from Kannada or Malyalam or Hindi script to Tulu Script with just 2 steps.
 
+## Introduction
 
-## Introduction 
-Anywhere Tulu is a transliteration tool for web developers to transliterate Kannada text written in Tulu language to Tulu Script. Anywhere Tulu uses the same code from Genairi tulu transliterator to transliterate the text. It was made using Javascript only. 
-#### You can see the simple working example <a href="https://jtuluve.github.io/genasiri-anywhere/script.js">here</a>
-Currently it supports Kannada only. I will be adding Malayalam and Hindi ASAP. 
+Anywhere Tulu is a transliteration tool for web developers to transliterate Kannada/ Malayalam/ Hindi text written in Tulu language to Tulu Script. Anywhere Tulu uses the same code from Genasiri tulu transliterator to transliterate the text. It was made using Javascript only.
+
+### You can see the simple working example <a href="https://jtuluve.github.io/genasiri-anywhere/script.js">here</a>
+
+Anywhere tulu supports Kannada, Malayalam, Hindi to Tulu transliteration.
+
+```Note: Transilteration is a method of conerting letters from one language to another. That means it does not translate the word, It swaps the letter from one language to another.```
 
 ## Quick Installation
+
 ### Step 1:
+
 Paste this one line of code before the closing tag of body (i.e before ```</body>``` )
 
 ```html
 <script src="https://jtuluve.github.io/genasiri-anywhere/script.js">
 ```
+
 ### Step 2:
+
 Add "genatulu" class to the tags which has the contents you want to convert to Tulu Script. 
-Ex: 
+Ex:
+
 ```html
 <h1 class="genatulu">ತುಳುನಾಡ್</h1>
 <p class="genatulu">ತುಳುನಾಡ್ ಕರ್ನಾಟಕ ರಾಜ್ಯೊದ ದಕ್ಷಿಣ ಕನ್ನಡ, ಉಡುಪಿ ಜಿಲ್ಲೆಲು ಕೇರಳ ರಾಜ್ಯೊದ ಕಾಸರಗೋಡುಜಿಲ್ಲೆನ್ ತುಳುನಾಡ್ ಪಂಡ್‍ದ್ ಪನ್ಪೆರ್. ಈ ಪ್ರದೇಸೊದ ಮುಕ್ಯೊ ಬಾಸೆ ತುಳು. ಬೌಗೋಲಿಕವಾದ್ ತುಳುನಾಡ್ ಭಾರತದೇಸೊದ ನೈರುತ್ಯೊಡುಪ್ಪುನ ಪ್ರದೇಸೊ</p>
@@ -29,8 +38,10 @@ Ex:
 
 
 ## Advanced control
+
 You can control where the option of transliteration should stay by adjusting the style. The element visible in the top-right corner has the class name as "AT_mainbody". You can change the style to your wish.
 example:
+
 ```css
 .AT_mainbody{
 top: 15px;
@@ -41,7 +52,8 @@ right: 15px;
 
 ## FAQ
 
-#### It isn't converting the text to Tulu Script in my website. Why?
+### It isn't converting the text to Tulu Script in my website. Why?
+
 If it isn't converting the text,
 • Please check If you have pasted the correct code in your html file.</br>
 • Make sure that you have pasted the code just before the closing tag of body (i.e ```</body>```)</br>
@@ -49,6 +61,9 @@ If it isn't converting the text,
 • If everything is correct but if it still doen't work, please contact me.</br>
 
 ## Got suggestions?
+
 ### If you have any suggestions/ queries contact me. I'm on <a href="https://instagram.com/jtuluve">instagram</a>. Let's chat!!
+
 # Do you have time for coffee?
+
 <a href="https://www.buymeacoffee.com/jtuluve" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>

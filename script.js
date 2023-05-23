@@ -3,7 +3,7 @@ let div1 = document.createElement('div')
 div1.className = 'AT_mainbody'
 let style = document.createElement("style")
 style.append("@font-face { font-family: 'baravu'; src: url('https://jtuluve.github.io/anywhere-tulu/fonts/Mandara.ttf') format('truetype'); } .AT_mainbody{position: fixed;top:1em;right:1em;width: 28vw;max-width: 169px;padding:0.6vw;background-color:rgb(245 245 245);border-radius:0.5em;filter:drop-shadow(2px 4px 4px black);min-width: 126px;}")
-document.getElementsByTagName('head')[0].append(style)
+document.getElementsByTagName('head')[0].insertAdjacentElement("afterbegin",style)
 div1.style = ""
 let div2 = document.createElement('div')
 div2.style = "display:flex;"
